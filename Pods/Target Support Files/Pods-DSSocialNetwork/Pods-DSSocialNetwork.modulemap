@@ -1,0 +1,6 @@
+framework module Pods_DSSocialNetwork {
+  umbrella header "Pods-DSSocialNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
