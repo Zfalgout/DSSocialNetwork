@@ -14,5 +14,6 @@ target 'DSSocialNetwork' do
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
+  pod 'SwiftKeychainWrapper'
 
 end
