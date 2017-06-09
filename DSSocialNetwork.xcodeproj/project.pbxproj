@@ -12,12 +12,12 @@
 		76F321A21EE8F9C400B6B373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F321A01EE8F9C400B6B373 /* Main.storyboard */; };
 		76F321A41EE8F9C400B6B373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F321A31EE8F9C400B6B373 /* Assets.xcassets */; };
 		76F321A71EE8F9C400B6B373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F321A51EE8F9C400B6B373 /* LaunchScreen.storyboard */; };
-		76F321AF1EE8FA6C00B6B373 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76F321AE1EE8FA6C00B6B373 /* GoogleService-Info.plist */; };
 		76F321B41EE9BCD200B6B373 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F321B31EE9BCD200B6B373 /* FancyView.swift */; };
 		76F321B71EE9BD5C00B6B373 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F321B61EE9BD5C00B6B373 /* Constants.swift */; };
 		76F321B91EE9BF0400B6B373 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F321B81EE9BF0400B6B373 /* RoundButton.swift */; };
 		76F321BB1EE9C08100B6B373 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F321BA1EE9C08100B6B373 /* FancyField.swift */; };
 		76F321BD1EE9C1AC00B6B373 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F321BC1EE9C1AC00B6B373 /* FancyButton.swift */; };
+		76F88D831EEA54C000FB7DDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76F88D821EEA54C000FB7DDB /* GoogleService-Info.plist */; };
 		A149C28863D7AC0FA9CD51A7 /* Pods_DSSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADAE00EEFF38E9DB90E0324 /* Pods_DSSocialNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,12 +31,13 @@
 		76F321A31EE8F9C400B6B373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F321A61EE8F9C400B6B373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76F321A81EE8F9C400B6B373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76F321AE1EE8FA6C00B6B373 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76F321B31EE9BCD200B6B373 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		76F321B61EE9BD5C00B6B373 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		76F321B81EE9BF0400B6B373 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		76F321BA1EE9C08100B6B373 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		76F321BC1EE9C1AC00B6B373 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		76F88D811EEA525F00FB7DDB /* DSSocialNetwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSSocialNetwork.entitlements; sourceTree = "<group>"; };
+		76F88D821EEA54C000FB7DDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EB1FCF72B56225F6E9524173 /* Pods-DSSocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSSocialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSSocialNetwork/Pods-DSSocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +91,7 @@
 		76F3219B1EE8F9C400B6B373 /* DSSocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				76F88D811EEA525F00FB7DDB /* DSSocialNetwork.entitlements */,
 				76F321B51EE9BD4E00B6B373 /* Util */,
 				76F321B01EE8FC9300B6B373 /* Model */,
 				76F321B11EE8FC9800B6B373 /* View */,
@@ -99,7 +101,7 @@
 				76F321A31EE8F9C400B6B373 /* Assets.xcassets */,
 				76F321A51EE8F9C400B6B373 /* LaunchScreen.storyboard */,
 				76F321A81EE8F9C400B6B373 /* Info.plist */,
-				76F321AE1EE8FA6C00B6B373 /* GoogleService-Info.plist */,
+				76F88D821EEA54C000FB7DDB /* GoogleService-Info.plist */,
 			);
 			path = DSSocialNetwork;
 			sourceTree = "<group>";
@@ -173,7 +175,13 @@
 				TargetAttributes = {
 					76F321981EE8F9C400B6B373 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7J8EZLC25K;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -201,7 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F321A71EE8F9C400B6B373 /* LaunchScreen.storyboard in Resources */,
-				76F321AF1EE8FA6C00B6B373 /* GoogleService-Info.plist in Resources */,
+				76F88D831EEA54C000FB7DDB /* GoogleService-Info.plist in Resources */,
 				76F321A41EE8F9C400B6B373 /* Assets.xcassets in Resources */,
 				76F321A21EE8F9C400B6B373 /* Main.storyboard in Resources */,
 			);
@@ -394,6 +402,8 @@
 			baseConfigurationReference = 3912FFB7F8B538EC200ACDED /* Pods-DSSocialNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DSSocialNetwork/DSSocialNetwork.entitlements;
+				DEVELOPMENT_TEAM = 7J8EZLC25K;
 				INFOPLIST_FILE = DSSocialNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyberpenguin.DSSocialNetwork;
@@ -407,6 +417,8 @@
 			baseConfigurationReference = EB1FCF72B56225F6E9524173 /* Pods-DSSocialNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DSSocialNetwork/DSSocialNetwork.entitlements;
+				DEVELOPMENT_TEAM = 7J8EZLC25K;
 				INFOPLIST_FILE = DSSocialNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyberpenguin.DSSocialNetwork;
