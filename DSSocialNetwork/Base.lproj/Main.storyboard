@@ -344,7 +344,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1K6-88-Tsv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="E6V-hV-X7y">
                     <connections>
-                        <action selector="signOutTapped:" destination="g1i-85-cPV" id="2aB-kU-02F"/>
+                        <action selector="signOutTapped:" destination="g1i-85-cPV" id="oVu-7h-jqf"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="5eX-mC-9oV"/>
                     </connections>
                 </tapGestureRecognizer>

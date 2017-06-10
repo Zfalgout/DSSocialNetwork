@@ -20,6 +20,9 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.delegate = self
         tableView.dataSource = self
         
+        DataService.ds.REF_POSTS.observe(.value, with: { (snapshot) in
+          print(snapshot.value)
+        })
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -39,10 +42,8 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBAction func signOutTapped(_ sender: UIButton) {
-        
-        let removeSuccessful: Bool = KeychainWrapper.standard.remove(key: KEY_UID)
+    @IBAction func signOutTapped(_ sender: Any) {
+        let removeSuccessful: Bool = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
         
         print("ZACK: Id removed from keychain \(removeSuccessful)")
         
@@ -50,4 +51,15 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         performSegue(withIdentifier: "goToSignIn", sender: nil)
     }
+
+    /*@IBAction func signOutTapped(_ sender: AnyObject) {
+        
+        let removeSuccessful: Bool = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
+        
+        print("ZACK: Id removed from keychain \(removeSuccessful)")
+        
+        try! Auth.auth().signOut()
+        
+        performSegue(withIdentifier: "goToSignIn", sender: nil)
+    }*/
 }
