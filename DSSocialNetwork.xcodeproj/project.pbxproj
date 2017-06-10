@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763B9B421EEB9D0100122B4E /* FancyCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B9B411EEB9D0100122B4E /* FancyCircleView.swift */; };
 		76F3219D1EE8F9C400B6B373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F3219C1EE8F9C400B6B373 /* AppDelegate.swift */; };
 		76F3219F1EE8F9C400B6B373 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F3219E1EE8F9C400B6B373 /* SignInVC.swift */; };
 		76F321A21EE8F9C400B6B373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F321A01EE8F9C400B6B373 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		3912FFB7F8B538EC200ACDED /* Pods-DSSocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSSocialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSSocialNetwork/Pods-DSSocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		3ADAE00EEFF38E9DB90E0324 /* Pods_DSSocialNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSSocialNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		763B9B411EEB9D0100122B4E /* FancyCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyCircleView.swift; sourceTree = "<group>"; };
 		76F321991EE8F9C400B6B373 /* DSSocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSSocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F3219C1EE8F9C400B6B373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F3219E1EE8F9C400B6B373 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				76F321B81EE9BF0400B6B373 /* RoundButton.swift */,
 				76F321BA1EE9C08100B6B373 /* FancyField.swift */,
 				76F321BC1EE9C1AC00B6B373 /* FancyButton.swift */,
+				763B9B411EEB9D0100122B4E /* FancyCircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				76F3219F1EE8F9C400B6B373 /* SignInVC.swift in Sources */,
 				76F321B91EE9BF0400B6B373 /* RoundButton.swift in Sources */,
 				76F321BD1EE9C1AC00B6B373 /* FancyButton.swift in Sources */,
+				763B9B421EEB9D0100122B4E /* FancyCircleView.swift in Sources */,
 				76F88D851EEB116300FB7DDB /* FeedVC.swift in Sources */,
 				76F3219D1EE8F9C400B6B373 /* AppDelegate.swift in Sources */,
 				76F321B41EE9BCD200B6B373 /* FancyView.swift in Sources */,
