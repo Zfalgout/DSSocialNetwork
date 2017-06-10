@@ -10,7 +10,7 @@ import UIKit
 
 class FancyCircleView: UIImageView {
 
-    override func awakeFromNib() {
+   /* override func awakeFromNib() {
         super.awakeFromNib()
         
         layer.shadowColor = UIColor(red: SHADOW_GRAY, green: SHADOW_GRAY, blue: SHADOW_GRAY, alpha: 0.6).cgColor
@@ -18,7 +18,7 @@ class FancyCircleView: UIImageView {
         layer.shadowRadius = 5
         layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
         
-    }
+    }*/
     
     override func layoutSubviews() {
         
