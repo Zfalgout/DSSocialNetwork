@@ -25,6 +25,8 @@ class FancyCircleView: UIImageView {
         super.layoutSubviews()
         
         layer.cornerRadius = self.frame.width/2
+        layer.masksToBounds = true
+        //Could also use 'clipsToBounds = true'
     }
 
 }
