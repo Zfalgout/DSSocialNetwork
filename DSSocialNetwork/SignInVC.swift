@@ -24,7 +24,8 @@ class SignInVC: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID) {
+        if let result = KeychainWrapper.standard.string(forKey: KEY_UID) {
+            print("ZACK: Performing segue to go back to the feed with identifier of goToFeed and with the result of \(result)")
             performSegue(withIdentifier: "goToFeed", sender: nil)
         }
     }
