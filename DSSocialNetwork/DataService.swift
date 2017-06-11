@@ -8,6 +8,7 @@
 
 import Foundation
 import Firebase
+import SwiftKeychainWrapper
 
 let DB_BASE = Database.database().reference()
 let STORAGE_BASE = Storage.storage().reference()
@@ -44,6 +45,12 @@ class DataService {
     
     var REF_POST_IMAGES: StorageReference {
         return _REF_POST_IMAGES
+    }
+    
+    var REF_CURRENT_USER: DatabaseReference {
+        let uid = KeychainWrapper.standard.string(forKey: KEY_UID)
+        let user = REF_USERS.child(uid!)
+        return user
     }
     
     

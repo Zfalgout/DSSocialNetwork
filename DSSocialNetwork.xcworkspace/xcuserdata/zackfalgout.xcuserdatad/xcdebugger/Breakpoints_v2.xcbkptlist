@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/FeedVC.swift"
-            timestampString = "518852472.915779"
+            timestampString = "518909356.944105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
             landmarkName = "FeedVC"
             landmarkType = "3">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/FeedVC.swift"
-            timestampString = "518852472.915779"
+            timestampString = "518909356.944105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "FeedVC"
             landmarkType = "3">
          </BreakpointContent>
@@ -42,7 +42,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/FeedVC.swift"
-            timestampString = "518852472.915779"
+            timestampString = "518909356.944105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "signOutTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DSSocialNetwork/FeedVC.swift"
+            timestampString = "518909356.944105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
@@ -57,28 +73,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DSSocialNetwork/FeedVC.swift"
-            timestampString = "518852472.915779"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "signOutTapped(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/PostCell.swift"
-            timestampString = "518850092.61661"
+            timestampString = "518909131.499622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "configureCell(post:img:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/PostCell.swift"
-            timestampString = "518850092.61661"
+            timestampString = "518909131.499622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "configureCell(post:img:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/Post.swift"
-            timestampString = "518850217.464963"
+            timestampString = "518909131.499622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "imageURL"
             landmarkType = "24">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/FeedVC.swift"
-            timestampString = "518852472.915779"
+            timestampString = "518909356.944105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/PostCell.swift"
-            timestampString = "518850559.72312"
+            timestampString = "518909131.499622"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "configureCell(post:img:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,13 +154,91 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DSSocialNetwork/FeedVC.swift"
-            timestampString = "518906085.825279"
+            timestampString = "518909356.944105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "postButtonTapped(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DSSocialNetwork/FeedVC.swift"
+            timestampString = "518907185.785339"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "FeedVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DSSocialNetwork.FeedVC.posts.getter : Swift.Array&lt;DSSocialNetwork.Post&gt;"
+                  moduleName = "DSSocialNetwork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zackfalgout/Desktop/iOS%20applications/Applications/Devslopes%20Applications/DSSocialNetwork/DSSocialNetwork/FeedVC.swift"
+                  timestampString = "518907186.837457"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DSSocialNetwork.FeedVC.posts.setter : Swift.Array&lt;DSSocialNetwork.Post&gt;"
+                  moduleName = "DSSocialNetwork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zackfalgout/Desktop/iOS%20applications/Applications/Devslopes%20Applications/DSSocialNetwork/DSSocialNetwork/FeedVC.swift"
+                  timestampString = "518907186.839535"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DSSocialNetwork.FeedVC.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DSSocialNetwork.FeedVC"
+                  moduleName = "DSSocialNetwork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zackfalgout/Desktop/iOS%20applications/Applications/Devslopes%20Applications/DSSocialNetwork/DSSocialNetwork/FeedVC.swift"
+                  timestampString = "518907186.841115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "265">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DSSocialNetwork.FeedVC.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DSSocialNetwork.FeedVC&gt;"
+                  moduleName = "DSSocialNetwork"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zackfalgout/Desktop/iOS%20applications/Applications/Devslopes%20Applications/DSSocialNetwork/DSSocialNetwork/FeedVC.swift"
+                  timestampString = "518907186.843126"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
